@@ -1,0 +1,682 @@
+/*=============common css================*/
+
+body {
+	background-color:#1e1f1d !important;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #5c6672;
+    font-weight: 400;
+
+}
+
+@font-face{
+	font-family: 'Roboto' !important;
+	
+}
+
+.container {
+    border-radius: 4px;
+    background: #f8f8f8;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	
+}
+
+.span4{
+	padding-left: 19px !important;
+	padding-right: 19px !important;
+	margin-right: -50px !important;
+
+}
+
+.span6{
+	padding-left: 19px !important;
+	padding-right: 19px !important;
+	margin-right: -50px !important;
+
+}
+
+h2{
+	padding-bottom:15px !important;
+}
+h2 .font-1{
+    font-family: 'Merriweather Sans' !important ;
+	src: url('assets/fonts/MerriweatherSans-Regular.ttf') ;
+
+}
+h2 .font-2{
+    font-family: "Dancing Script" !important;
+	src: url('assets/fonts/DancingScript-Regular.ttf');
+	
+}
+
+
+h3, .h3 {
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+    color: #222222 !important;
+    font-size: 24px !important;
+    line-height: 35px !important;
+    font-weight: 500 !important;
+}
+
+h4, .h4 {
+	padding-top:15px !important;
+	padding-bottom:10px !important;
+	color: #222222 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
+}
+
+a {
+    color: #222 !important;
+
+}
+
+a:hover{
+	color: #ff9d1b !important;
+	text-decoration:none !important;
+}
+
+
+
+
+/*=============top-bar=============*/
+
+#topbarcontainer{
+    background: #fff;
+}
+
+.top-bar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+	padding-top: -40px;
+	padding-bottom: -20px;
+	margin-top:-10px;
+
+}
+
+
+.top-bar i {
+    margin-right: 9px;
+}
+
+.top-bar a:hover, a:focus {
+    color: #222 !important;
+    text-decoration: none !important;
+}
+
+.top-bar a, .top-bar i {
+    color: #222 !important;
+}
+
+
+/*============= Nav bar ================*/
+
+.navbar .nav>.active>a {
+    color: #ffc31f !important;
+	background-color:#fbb45073 !important;
+	
+}
+.navbar .nav>li>a {
+
+    color: #fff !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
+	
+}
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    color: #ffc31f !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+.nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    color: #ffc31f !important;
+    text-decoration: none !important;
+    background-color: #ffc31f !important;
+	box-shadow: none !important;
+}
+#navcontainer{
+    background-color: #1e1f1d;
+
+}
+
+.fornav {
+    padding-bottom: 100px;
+	height: 80px;
+	background: #1e1f1d;
+	
+	background-color: #1e1f1d;
+    background-image: linear-gradient(to bottom,#1e1f1d,#1e1f1d);
+    border: 1px solid #1e1f1d;
+	
+}
+#branID{
+	padding: 10px;
+}
+#nav-inn{
+	background-color: #1e1f1d;
+    background-image: linear-gradient(to bottom,#1e1f1d,#1e1f1d);
+    border: 1px solid #1e1f1d;
+	
+}
+.navbar-inner{
+	padding-left: 0;
+	padding-right: 0;
+	border: none;
+	box-shadow: none;
+    margin-top: 20px;
+	
+	background-color: #1e1f1d;
+    background-image: linear-gradient(to bottom,#1e1f1d,#1e1f1d);
+    border: 1px solid #1e1f1d;
+	
+}
+	
+
+/*	
+.navbar {
+}
+    font-family: Roboto;
+	font-weight: bold;
+    margin-top: 20px;
+	background-color: #1e1f1d;
+    background-image: linear-gradient(to bottom,#1e1f1d,#1e1f1d);
+    border: 1px solid #1e1f1d;
+	
+
+}
+*/
+/*
+.nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    color: #555;
+    text-decoration: none;
+    background-color: #08c;
+	box-shadow: none;
+}
+*/
+/*
+.navbar .brand {
+	text-indent: -9999px;
+	width:100px;
+
+	padding:0px;
+	background: url(../images/favicon.png) no-repeat;
+
+}
+*/
+/*
+.brand {
+	text-indent: -9999px;
+
+
+	padding:0px;
+	background: url(../images/favicon.png) no-repeat;
+
+}
+*/
+
+/*============= Grow your busniss with Top5Way ================*/
+
+#GrowYour{
+	background-color:#1e1f1d;
+	background:#1e1f1d;
+}
+.imgtextdescription{
+	padding-left:25px;
+
+}
+.icondescripption{
+	padding-left:25px;
+}
+
+/*============= Section Break ================*/
+.braking{
+
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+
+
+/*============= Why choose Top5Way ================*/
+i.fa.fa-comment{
+	font-size: 30px;
+	color:#ff9d1b ;
+}
+
+i.fa.fa-heart{
+	font-size: 30px;
+	color:#ff9d1b ;
+}
+
+i.fa.fa-lightbulb-o{
+	font-size: 35px;
+	color:#ff9d1b ;
+}
+
+i.fa.fa-paper-plane{
+	font-size: 30px;
+	color:#ff9d1b ;
+}
+
+#chesspiece{
+	padding-top: 0px !important;
+
+}
+
+#wallet{
+	padding-top: 30px !important;
+
+}
+
+/*============= General FAQ ================*/
+.panel-heading {
+    padding-top: 3px !important;
+    padding-right: -19 !important;
+	padding-left: -19 !important;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+
+.panel-default>.panel-heading {
+    color: #333 !important;
+
+    border-color: #ddd !important;
+}
+
+div.panel-body{
+	border-top:2px solid !important;
+    border-color: #ffc31f !important;
+	padding-top:13px !important;
+    margin-right: 30px !important;
+}
+
+/*============= Quote ================*/
+#Quote{
+
+	background-color:#1a313c !important;
+	padding-right:50px !important;
+	padding-left:70px!important;
+	padding-top:90px!important;
+	padding-bottom:90px!important;
+	/*border-bottom:1px solid #ccc !important;*/
+}
+#Quote .container{
+	background-color:#1a313c !important;
+	color:#f8f8f8;
+	
+}
+
+h1.h1quote {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    font-style: italic;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/*============= Don’t just come to work. ================*/
+
+
+#Come{
+	background-color:#1e1f1d !important;
+
+}
+
+#Come  .container{
+	
+	background-color:#1e1f1d !important;
+	color:#fff;
+	
+
+}
+
+#Come p{
+	padding-left:150px;
+	color: #9ba5b0;
+}
+
+#Come h2{
+	padding-left:150px;
+
+}
+
+#Come .btn_lg{
+	width: 200px !important;
+	height: 25px !important;
+	background-color: #ffc31 !important;
+}
+a.btn.btn_lg{
+	background: #ffc31 !important;
+}
+
+#Come a{
+	padding-top:8px;
+	color: #black !important;
+}
+
+#Come a:hover{
+	color: #1e1f1d !important;
+}
+
+a.btn.btn_lg{
+    text-align: center !important;
+    text-shadow: none !important;
+	background-color: #ffc31f !important;
+
+    background-image: none !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid #f89406 !important;	
+	border-color: #f89406 #f89406 #f89406 !important;
+	border-bottom-color: #f89406 !important;
+	
+	-webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+	box-shadow: none !important;
+	margin-top: 10% !important;
+	margin-left: 20% !important;
+	
+}
+
+a.btn.btn_lg:hover{
+	background: #ff9d1b !important;
+}
+
+/*============= Footer Widgets ================*/
+
+
+#FooterWidgets{
+	background-color:#141415 !important;
+	/*border-top:1px solid #ccc !important;*/
+
+}
+
+#FooterWidgets .container{
+	background-color:#141415 !important;
+
+}
+#FooterWidgets p{
+	color: #ccc;
+	padding-right:50px !important;
+	padding-left:50px!important;
+	text-align: justify;
+	
+}
+
+#FooterWidgets img{
+	width: 150px !important;
+	
+}
+#FooterWidgets h4{
+	color: #fff !important;
+}
+
+.FooterWidgetslinks a{
+	text-decoration: none !important;
+}
+#FooterWidgets ul li {
+	color:#ccc !important;
+	list-style:none !important;
+
+}
+
+div.span4.FooterWidgetslinks{
+	color:#ccc !important;
+    font-weight: 500;
+}
+div.span4.FooterWidgetslinks ul li a{
+	color:#ccc !important;
+    font-weight: 500;
+	margin-left: -21px !important;
+}
+
+
+/*============= Footer  ================*/
+
+#Footer{
+	background-color:#0c0c0c !important;
+	/*border-top:1px solid #ccc !important;*/
+}
+
+#Footer .container{
+	background-color:#0c0c0c !important;
+
+}
+
+#Footer p, #Footer li a {
+    color: #b6b6b6 !important;
+
+	
+}
+#Footer ul li {
+	color:#ccc !important;
+	list-style:none !important;
+
+
+}
+
+#Footer ul li {
+	float:right !important;
+	padding-left:25px !important;
+
+}
+#Footer a{
+	color:#ddd !important;
+}
+
+
+
+/*============= Responsive  ================*/
+
+@media (max-width: 979px){
+
+
+/*============= Responsive Topbar ================*/
+
+.top-bar a {
+
+	margin-left:60% !important;
+	text-align: center !important;
+	
+}
+
+.fa-envelope:before {
+
+	margin-left:77px !important;
+}
+.fa-clock-o:before {
+  	margin-left:139px !important;
+}
+
+/*============= Responsive Nav ================*/
+
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus, .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a  {
+    background-color: #fbb4504d !important;
+}
+.navbar .btn-navbar {
+    display: block;
+    /*margin-right: 43% !important;*/
+
+    margin-bottom: 6px !important;
+
+
+}
+
+.nav-collapse .dropdown-menu a, .dropdown-menu li a {
+	
+	background: rgb( 0,0,0,50%) !important;
+
+
+}
+/*
+.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+
+	background: rgb(0 0 0 / 25%) !important;
+
+}
+*/
+.navbar .btn-navbar {
+	float: right !important;
+	padding: 7px 10px  !important;
+	/*margin-left: 5px  !important;*/
+	text-shadow: none !important;
+    background-color: #fbb4503d !important;
+	background-image: none !important;
+    background-repeat: no-repeat !important;
+    border-color: #f8940600 !important;
+	box-shadow: none !important;
+	margin-bottom : -50px !important;
+	margin-top : -10px !important;
+	
+
+    margin-bottom: 2px !important;
+
+
+}
+
+.navbar .btn-navbar .icon-bar {
+
+    background-color: #f89406 !important;
+	
+}
+
+/*============= Grow your Business Quote ================*/
+.imgtextdescription{
+    padding-bottom: 20px !important;
+
+}
+
+#chesspiece {
+    padding-top: 20px !important;
+}
+
+
+i.fa.fa-comment {
+	padding-top: 20px !important;
+}
+
+/*============= Responsive Quote ================*/
+#Quote{
+	padding-top:30px !important;
+	padding-bottom:30px !important;
+	padding-right:0px !important;
+	padding-left:0px !important;
+}
+
+
+/*============= Responsive come ================*/
+
+
+#Come h2 {
+	margin-left: -130px !important;
+   /*margin-left: -150px !important;*/
+   /*text-align: center;*/
+}
+
+#Come p {
+	margin-left: -130px !important;
+    /*margin-left: -150px !important;*/
+	/*text-align: center;*/
+}
+
+#Come .btn_lg{
+	margin-left: 20px !important;
+   /* margin-left: 20% !important;*/
+
+	/*text-align: center !important;*/
+}
+
+/*============= Responsive FooterWidgets ================*/
+
+#FooterWidgets .container{
+	text-align: center !important;
+}
+
+#Footer .container{
+	text-align: center !important;
+
+}
+div.text-center.footericon {
+	text-align: center !important;
+	margin-right: 35% !important;
+
+
+
+}
+
+
+
+
+
+}/*end @media (max-width: 979px)*/
+
+
+
+/*============= Small devices (landscape phones, less than 768px)================*/
+
+@media (max-width: 767.98px) { 
+
+/*============= Responsive nav ================*/
+
+.navbar .btn-navbar {
+    display: block;
+    margin-right: 44% !important;
+	
+    margin-bottom: 2px !important;
+
+
+}
+
+/*============= Responsive top bar ================*/
+
+.top-bar a {
+
+	margin-left:10% !important;
+	margin-right:10% !important;
+}
+
+
+.fa-envelope:before {
+
+	margin-left:0px !important;
+}
+.fa-clock-o:before {
+   	margin-left:0px !important;
+}
+
+}/*end @media (max-width: 767.98px)*/
+
+@media (min-width: 768px) and (max-width: 979px){
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 779px !important;
+}
+
+#WhyChoose .span4 {
+    margin-left: 30px !important;
+    width: 228px;
+}
+
+#WhyChoose img{
+	margin-top:70px;
+}
+.fa-comment{
+	margin-top:-14px;
+}
+
+#Come .btn_lg {
+    margin-left: 20px !important;
+	 margin-top: 80px !important;
+}
+
+}
+
+
+
+
